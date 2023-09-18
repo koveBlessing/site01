@@ -1,0 +1,114 @@
+<html>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background-color: #f0f0f0;
+            height: 80px;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 32px;
+            font-weight: bold;
+            color: #333333;
+        }
+
+        .nav {
+            margin-left: auto;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #333333;
+            padding: 10px 20px;
+        }
+
+        .nav a:hover {
+            background-color: #cccccc;
+        }
+
+        .hero {
+            background-image: url("https://i.imgur.com/3Xq2QbC.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .hero h1 {
+            font-size: 64px;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 24px;
+            color: white;
+        }
+
+        .hero button {
+            width: 200px;
+            height: 50px;
+            border: none;
+            border-radius: 25px;
+            background-color: #ff9900;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .hero button:hover {
+            transform: scale(1.1);
+        }
+
+        .footer {
+            background-color: #333333;
+            height: 100px;
+            display: flex;
+            align-items: center;
+        }
+
+        .footer p {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">Bing</div>
+            <div class="nav">
+                <a href="#">Accueil</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+                <a href="#">A propos</a>
+            </div>
+        </div>
+        <div class="hero">
+            <h1>Bienvenue sur Bing</h1>
+            <p>Le moteur de recherche qui vous aide à trouver ce que vous cherchez.</p>
+            <button>Rechercher maintenant</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <p>© 2023 Bing. Tous droits réservés.</p>
+        </div>
+    </div>
+</body>
+</html>
